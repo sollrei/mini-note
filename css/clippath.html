@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: #ddd;
+    }
+    .wrap {
+      height: 306px;
+      width: 406px;
+      box-sizing: border-box;
+      padding: 3px;
+      background-color: #fff;
+      clip-path: path('M 50 0 L 356,0 A 50,50 0,0,0 406,50 L 406 256 A 50,50 0,0,0 356,306 L 50, 306 A 50,50 0,0,0 0,256 L 0,50 A 50,50 0,0,0 50, 0 z');
+    }
+    .inner {
+      height: 400px;
+      width: 300px;
+      clip-path: path('M 50 0 L 350,0 A 50,50 0,0,0 400,50 L 400 250 A 50,50 0,0,0 350,300 L 50, 300 A 50,50 0,0,0 0,250 L 0,50 A 50,50 0,0,0 50, 0 z');
+      
+    }
+    .inner img {
+      display: block;
+    }
+    .wrapper {
+      height: 306px;
+      width: 406px;
+      filter: drop-shadow(0 0 5px rgba(0,0,0,.16));
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wrap">
+      <div class="inner">
+        <img src="https://img-i.westarcloud.com/2021/0324/bexd10rf2rgtep4y092013.jpg" alt="" width="400" height="300">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
